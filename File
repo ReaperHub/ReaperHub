@@ -1,7 +1,7 @@
 repeat
     task.wait()
 until game:IsLoaded()
-if game.PlaceId == 4779613061 then
+if game.PlaceId == 4779613061 or game.PlaceId == 10227055213 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ReaperHub/ReaperHubSL2/main/File"))()
 else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ReaperHub/ReaperHubRB4/main/File"))()
